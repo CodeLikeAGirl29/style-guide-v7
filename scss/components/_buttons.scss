@@ -7,9 +7,9 @@
   width: 100%;
   color: $white;
   border: none;
-  padding: 10px 0;
+  padding: em(10px) 0;
   text-transform: uppercase;
-  border-radius: 5px;
+  border-radius: $br--default;
 }
 
 .default {

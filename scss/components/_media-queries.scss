@@ -1,86 +1,15 @@
 /* ============================================= */
-/*              Grid System                      */
+/*              Media Queries                    */
 /* ============================================= */
 
-.container {
-  padding: 0 10px;
-}
-
-.row {
-  display: flex;
-  flex-direction: column;
-  padding: 1em 10px;
-}
-
-[class^="col"] {
-  margin-top: 10px;
-  flex-basis: 100%;
-  min-height: 25px;
-  padding: 10px;
-  border-radius: $br--default;
-}
-
-.theme.col-1 {
-  background-color: $purple;
-}
-
-.theme.col-2 {
-  background-color: $coral;
-}
-
-.theme.col-3 {
-  background-color: $pastel-indigo;
-}
-
-.theme.col-4 {
-  background-color: $med-blue;
-}
-
-.theme.col-5 {
-  background-color: $algae-green;
-}
-
-.theme.col-6 {
-  background-color: $max-blue;
-}
-
-.theme.col-7 {
-  background-color: $pastel-pink;
-}
-
-.theme.col-8 {
-  background-color: $tangerine;
-}
-
-.theme.col-9 {
-  background-color: $candy-pink;
-}
-
-.theme.col-10 {
-  background-color: $emerald;
-}
-
-.theme.col-11 {
-  background-color: $color-link-default;
-}
-
-.theme.col-12 {
-  background-color: $pearl-aqua;
-}
-
-.card {
-  flex-basis: 100%;
-}
-
-// =====================================
-// Media Queries
-// =====================================
-
-@media (min-width: $break-md) {
+@media (min-width: 768px) {
   .container {
-    @include center;
     max-width: 1400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
+
   .centered {
     display: block;
     margin-left: auto;
