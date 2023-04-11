@@ -2,9 +2,15 @@
 
 In this project, we've provided completed index.html and styles.css files. You will be responsible for converting the CSS into Sass by splitting the code into several Sass partial files. You will also look for repeated values (length units, colors, etc.) throughout the CSS and store them in Sass variables. After completing the project, you'll have a useful Sass micro-framework to quickly prototype other websites.
 
+> Live link can be found [here](https://sassstyleguide.netlify.app/)
+
 ## Built with:
 
 ![sass](https://camo.githubusercontent.com/7436ecde5696a856dd865d3fc81fa2612054f468e12fdb5d591e7a19a46fc9f7/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f7374796c653d666f722d7468652d6261646765266d6573736167653d5361737326636f6c6f723d434336363939266c6f676f3d53617373266c6f676f436f6c6f723d464646464646266c6162656c3d)
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7058d3e1-9b9a-4d2d-ba1b-363d2acebfbb/deploy-status)](https://app.netlify.com/sites/sassstyleguide/deploys)
+
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/0e8ac11c85134988a30984a282fd9212)](https://app.codacy.com/gh/CodeLikeAGirl29/style-guide-v7/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
 
 ## Main Color Reference
 
