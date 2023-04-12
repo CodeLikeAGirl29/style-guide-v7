@@ -2,14 +2,11 @@
 /*              Media Queries                    */
 /* ============================================= */
 
-@media (min-width: 768px) {
+@media (min-width: $break-md) {
   .container {
+    @include center;
     max-width: 1400px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
   }
-
   .centered {
     display: block;
     margin-left: auto;

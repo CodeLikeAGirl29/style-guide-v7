@@ -7,16 +7,16 @@
   margin-top: 10px;
   max-width: 100%;
   max-height: 100%;
+}
 
-  &-frame {
-    @include center;
-    margin-top: 10px;
-    max-width: 100%;
-    padding: 13px;
-    border: 1px solid #ccc;
+.img-frame {
+  @include center;
+  margin-top: 10px;
+  max-width: 100%;
+  padding: 13px;
+  border: 1px solid #ccc;
+}
 
-    &-logo {
-      @include center;
-    }
-  }
+.img-logo {
+  @include center;
 }
